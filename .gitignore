@@ -1,0 +1,6 @@
+*.png
+/MusicToLED/MusicToLED.sim/*
+/MusicToLED/MusicToLED.runs/*
+/MusicToLED/MusicToLED.hw/*
+/MusicToLED/MusicToLED.cache/*
+.DS_Store

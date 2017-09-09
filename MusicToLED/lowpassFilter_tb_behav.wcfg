@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="MusicToLED_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="MusicToLED_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="45295806666667fs"></ZoomStartTime>
+      <ZoomEndTime time="110895806666668fs"></ZoomEndTime>
+      <Cursor1Time time="56229140000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="175"></NameColumnWidth>
+      <ValueColumnWidth column_width="116"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="17" />
+   <wvobject fp_name="/MusicToLED_tb/sclk" type="logic">
+      <obj_property name="ElementShortName">sclk</obj_property>
+      <obj_property name="ObjectShortName">sclk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MusicToLED_tb/spi_cs" type="logic">
+      <obj_property name="ElementShortName">spi_cs</obj_property>
+      <obj_property name="ObjectShortName">spi_cs</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MusicToLED_tb/spi_sdata" type="logic">
+      <obj_property name="ElementShortName">spi_sdata</obj_property>
+      <obj_property name="ObjectShortName">spi_sdata</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MusicToLED_tb/uut/take_sample" type="logic">
+      <obj_property name="ElementShortName">take_sample</obj_property>
+      <obj_property name="ObjectShortName">take_sample</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MusicToLED_tb/seg" type="array">
+      <obj_property name="ElementShortName">seg[0:9]</obj_property>
+      <obj_property name="ObjectShortName">seg[0:9]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MusicToLED_tb/an" type="array">
+      <obj_property name="ElementShortName">an[2:0]</obj_property>
+      <obj_property name="ObjectShortName">an[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MusicToLED_tb/uut/ad_data" type="array">
+      <obj_property name="ElementShortName">ad_data[11:0]</obj_property>
+      <obj_property name="ObjectShortName">ad_data[11:0]</obj_property>
+      <obj_property name="WaveformStyle">STYLE_ANALOG</obj_property>
+      <obj_property name="CellHeight">100</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MusicToLED_tb/uut/sample_count" type="array">
+      <obj_property name="ElementShortName">sample_count[9:0]</obj_property>
+      <obj_property name="ObjectShortName">sample_count[9:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MusicToLED_tb/uut/lowpass_data_out" type="array">
+      <obj_property name="ElementShortName">lowpass_data_out[11:0]</obj_property>
+      <obj_property name="ObjectShortName">lowpass_data_out[11:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MusicToLED_tb/uut/lowpass_digital_filter_data_out" type="array">
+      <obj_property name="ElementShortName">lowpass_digital_filter_data_out[11:0]</obj_property>
+      <obj_property name="ObjectShortName">lowpass_digital_filter_data_out[11:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MusicToLED_tb/uut/lowpass_amp_data_out" type="array">
+      <obj_property name="ElementShortName">lowpass_amp_data_out[3:0]</obj_property>
+      <obj_property name="ObjectShortName">lowpass_amp_data_out[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MusicToLED_tb/uut/highpass_data_out" type="array">
+      <obj_property name="ElementShortName">highpass_data_out[11:0]</obj_property>
+      <obj_property name="ObjectShortName">highpass_data_out[11:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MusicToLED_tb/uut/highpass_digital_filter_data_out" type="array">
+      <obj_property name="ElementShortName">highpass_digital_filter_data_out[11:0]</obj_property>
+      <obj_property name="ObjectShortName">highpass_digital_filter_data_out[11:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MusicToLED_tb/uut/highpass_amp_data_out" type="array">
+      <obj_property name="ElementShortName">highpass_amp_data_out[3:0]</obj_property>
+      <obj_property name="ObjectShortName">highpass_amp_data_out[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MusicToLED_tb/uut/bandpass_data_out" type="array">
+      <obj_property name="ElementShortName">bandpass_data_out[11:0]</obj_property>
+      <obj_property name="ObjectShortName">bandpass_data_out[11:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MusicToLED_tb/uut/bandpass_digital_filter_data_out" type="array">
+      <obj_property name="ElementShortName">bandpass_digital_filter_data_out[11:0]</obj_property>
+      <obj_property name="ObjectShortName">bandpass_digital_filter_data_out[11:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MusicToLED_tb/uut/bandpass_amp_data_out" type="array">
+      <obj_property name="ElementShortName">bandpass_amp_data_out[3:0]</obj_property>
+      <obj_property name="ObjectShortName">bandpass_amp_data_out[3:0]</obj_property>
+   </wvobject>
+</wave_config>
